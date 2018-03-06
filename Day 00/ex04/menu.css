@@ -1,0 +1,80 @@
+* {
+    outline: none;
+}
+
+.menu {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    margin: 0 50px;
+    border: 10px solid transparent;
+    font-size: monospace;
+}
+
+.menu:hover .options {
+    border: 1px solid #ddd;
+}
+.menu:hover .options .option {
+    opacity: 1;
+}
+
+.selected-option {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    font-size: 20px;
+}
+.selected-option > div {
+    margin: auto;
+}
+
+.options {
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    transition: all 100ms ease-in-out;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 100ms ease-in-out;
+}
+.options .option {
+    padding: 5px 20px;
+    margin: 5px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+    transition: all 100ms ease-in-out;
+}
+.options .option:hover {
+    background: #fafafa;
+    border-bottom: 1px solid #ddd;
+}
+.options .option:focus {
+    background: #fafafa;
+    border-bottom: 1px solid #000;
+}
+.only-if-is-focused {
+    display: none;
+    position: absolute;
+    top: -61px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    background: #fafafa;
+}
+.only-if-is-focused > div {
+    margin: auto;
+}
+
+.options > div:focus .only-if-is-focused {
+    display: flex;
+}
