@@ -60,3 +60,34 @@ Local foreword: “I feel like I could... like I could... like I could... TAKE O
 3. The actions on the left are respectively named “Advance”, “Take”, “Look”, “Use”, “Speak”. The alt/title must use that name
 4. In the central image, a zone on the principal chair in the center (the second one from the right) goes to www.ikea.com and the biggest screen, from the back, in the lower right corner goes to www.apple.com.
 5. You can choose the object’s titles but they must have one.
+
+
+## Exercise 03 : The shrunk agent
+
+#### Turn-in directory : ex03/
+#### Files to turn in : responsive.html responsive.css
+#### Allowed functions : n/a
+#### Notes : n/a
+
+### Like most Russians at some paranoid time in History, Dimitri Mendeleïev was an agent. If he wasn’t at the origin of the former important press outfit (TASS agency), however, he too started to shrink in time. His periodic table did as well. Copy your periodic table from the first exercise and make it responsive to the browser resizing. The periodic table must shrink, the fonts as well. Do as you wish but do not listen to the Javascript pros that will say that it can’t be done without it. Stay on CSS and wait for day09 for the JS.
+
+
+## Exercise 04 : SNCF* Sandwich
+
+#### Turn-in directory : ex04/
+#### Files to turn in : menu.html menu.css
+#### Allowed functions : n/a
+#### Notes : n/a
+
+A train leaves Paris for Lyon, Saturday September 12th 1985, day of a lunar eclipse. It will ride at 216 km/h, the wind blows S/SE at a factor 5, and the temperature outside the train is 13 degree Celsius, and 22°C inside. The sky is cloudy. Another train leaves Lyon for Paris, on the same day at 23:00. It is riding at 224km/h. Which one of these two train will be the furthest away from Paris when they will cross path?
+
+### While you mull over the question, have a SNCF ham and cheese sandwich commonly referred as “Drop-down menu”. You have some ingredients that are authorized, others are forbidden:
+
+1. Ingrédient CSS : OK.
+2. Ingrédient HTML : OK.
+3. Ingrédient Javascript : NON.
+4. Ingrédient autre : NON.
+
+Although the aesthetic is subjective, please create a SNCF sandwich -Drop-down
+menu- that will be appetizing -rather nice to look at-.
+*(French National Railway Company)
