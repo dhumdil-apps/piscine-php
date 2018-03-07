@@ -189,7 +189,7 @@ world aaa hello
 $>
 `
 
-
+c
 ## Exercise 08 : ft_is_sort
 
 #### Turn-in directory : ex08/
