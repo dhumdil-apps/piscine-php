@@ -8,13 +8,9 @@
 #### Allowed functions : n/a
 #### Notes : n/a
 
-Note: this first exercise, similar to the next ones, has 2 premises. The first is that you
-have watched the introduction video to HTML/CSS, and the second is that you won’t
-try to look for a pre-packaged answer for the exercises but will really do your best to
-learn HTML.
+Note: this first exercise, similar to the next ones, has 2 premises. The first is that you have watched the introduction video to HTML/CSS, and the second is that you won’t try to look for a pre-packaged answer for the exercises but will really do your best to learn HTML.
 
-We will start with something simple. If you can’t do it at first, take a break, go home
-and come back when you are feeling better.
+We will start with something simple. If you can’t do it at first, take a break, go home and come back when you are feeling better.
 
 ### Create a web page that contain the following elements:
 
