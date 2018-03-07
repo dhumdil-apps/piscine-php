@@ -1,5 +1,6 @@
 #!/usr/bin/php
 <?php
+
 	while (($line = readline("Enter a number: ")) != false || is_numeric($line))
 	{
 		if (is_numeric($line))
