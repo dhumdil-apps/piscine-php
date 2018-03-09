@@ -1,2 +1,1 @@
-<?php
-	$echo "raw_text";
+<?php ?>
